@@ -1,0 +1,602 @@
+<table width="100%" border="1" style="color: red;">
+            <tr>
+            <td><h3>Date & Time</h3></td>
+            <td><h3>Request URL</h3></td>
+            <td><h3>Parameter</h3></td>
+            <td><h3>Error</h3></td>
+            <td><h3>IP</h3></td>
+            </tr><tr>
+        <td>2022-09-06 15:29:50</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 974 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (SQL: select * from `users` where `mobile_no` = 0 and `status` != 2 order by `id` desc limit 1)</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 15:34:39</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 974 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shipper.users' doesn't exist (SQL: select * from `users` where `mobile_no` = 0 and `status` != 2 order by `id` desc limit 1)</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 15:45:43</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 974 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mobile_no' in 'where clause' (SQL: select * from `users` where `mobile_no` = 0 and `status` != 2 order by `id` desc limit 1)</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 15:49:09</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 974 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mobile_no' in 'where clause' (SQL: select * from `users` where `mobile_no` = 0 and `status` != 2 order by `id` desc limit 1)</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:04:36</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 974 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:06:43</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>password : "********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (?, ?, ?, ?, $2y$10$Qd/Cag7SjhcneFxjXeFLh.zm9haQP29kU3utX145nlfG91.QGhYeK, ?, ?, 6352, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:06:43, 2022-09-06 17:06:43, 2022-09-06 17:06:43))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:07:34</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : ""<br>last_name : ""<br>email : ""<br>user_type : ""<br>password : "********"<br>city : ""<br>mobile_no : ""<br>verification_code : ""<br>equipment_use : ""<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (?, ?, ?, ?, $2y$10$Rb7F9zKaw6P3KsBeh/GTFuQ9sbCg2Tkm1t5v.4QbAhA.34WeOr8ry, ?, ?, 6479, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:07:34, 2022-09-06 17:07:34, 2022-09-06 17:07:34))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:07:46</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : ""<br>last_name : ""<br>email : ""<br>user_type : ""<br>password : "********"<br>city : ""<br>mobile_no : ""<br>verification_code : ""<br>equipment_use : ""<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (?, ?, ?, ?, $2y$10$G6VE4m.FRUNEZammt9iECejwJ8I5hEIKjGV3scJP4nWIv6FQwe5wC, ?, ?, 6764, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:07:46, 2022-09-06 17:07:46, 2022-09-06 17:07:46))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:07:48</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : ""<br>last_name : ""<br>email : ""<br>user_type : ""<br>password : "********"<br>city : ""<br>mobile_no : ""<br>verification_code : ""<br>equipment_use : ""<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (?, ?, ?, ?, $2y$10$7RSGH8NzK76FCVMR22iIqupIhd4PiurIrYlktGyw5zkT5AwIZw5KC, ?, ?, 8750, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:07:48, 2022-09-06 17:07:48, 2022-09-06 17:07:48))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:07:49</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : ""<br>last_name : ""<br>email : ""<br>user_type : ""<br>password : "********"<br>city : ""<br>mobile_no : ""<br>verification_code : ""<br>equipment_use : ""<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (?, ?, ?, ?, $2y$10$ZyarOdbxIgnr2xYRzvA7I.jFa81AOLiZzeMdkdig422htSCGgnWxy, ?, ?, 2050, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:07:49, 2022-09-06 17:07:49, 2022-09-06 17:07:49))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:08:04</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : ""<br>last_name : ""<br>email : ""<br>user_type : ""<br>password : "********"<br>city : ""<br>mobile_no : ""<br>verification_code : ""<br>equipment_use : ""<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (?, ?, ?, ?, $2y$10$7I0ewU1qV1jLRFc8egoot.4dTmowpmrQVSr6CAyrWnDOiPKfuQIoe, ?, ?, 5475, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:08:04, 2022-09-06 17:08:04, 2022-09-06 17:08:04))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:09:00</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$tewK7RrqgjqrLUGDeQ/.g.BI2fs1ao.ndkG7RU/7DIdicaQYBLfh6, ?, ?, 1504, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:09:00, 2022-09-06 17:09:00, 2022-09-06 17:09:00))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:10:03</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$0uN6kXmQoPQzsPircCnhCuXwDTu2u.7W5JZ4MAMkhD2mTV6GwiYJK, ?, ?, 8735, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:10:03, 2022-09-06 17:10:03, 2022-09-06 17:10:03))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:10:06</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$0Bdf.4oj6Cgtk6BSthoT5uDm9Gz3rxfmE987V2T7G167tkMRmi2.q, ?, ?, 5247, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:10:06, 2022-09-06 17:10:06, 2022-09-06 17:10:06))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:11:28</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$7l1ODha2gxu4Xj/.o8tnSe9mnwCkEPSSQLqyeykFryyp9itRLFTfu, ?, ?, 7229, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:11:28, 2022-09-06 17:11:28, 2022-09-06 17:11:28))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:11:30</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$ZxGQkd9hdJK1hNU132dhZulpFAD2hDp2G.WzPbgwFkp/7gdPgbz/u, ?, ?, 9781, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:11:30, 2022-09-06 17:11:30, 2022-09-06 17:11:30))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:13:07</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$ZKIs1gV3y5c2DPp7AxqeDursS4KxpZyilqe6hdlaLNI4ovaXqxS/G, ?, ?, 9947, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:13:07, 2022-09-06 17:13:07, 2022-09-06 17:13:07))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:13:22</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$1wPdt5Ui3FMoZXP2wr43KOf6gt5CecLXajRtNKK7XkpQg9FvJVfza, ?, ?, 7677, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:13:22, 2022-09-06 17:13:22, 2022-09-06 17:13:22))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:15:10</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$XCoSMYkjV84zzWThp4sPUe11wlqqWznxv7d6Qn/WOsHF6DlFWOkGW, ?, ?, 2811, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:15:10, 2022-09-06 17:15:10, 2022-09-06 17:15:10))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:15:20</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$x9dnaLEm4k0y3QNCWUmonu30kHe8C94juiS1aK5N5m5vNyGbtpwzW, ?, ?, 9490, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:15:20, 2022-09-06 17:15:20, 2022-09-06 17:15:20))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:15:29</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$dUmSUFHlWOZgQkN9aQsJauyHGCMjubKhjLpO8VDMoCZdQNbRLNe1., ?, ?, 8269, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:15:29, 2022-09-06 17:15:29, 2022-09-06 17:15:29))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:16:14</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$GR9uSakMW0NWww0DZVWgrOUIL8dCeMdzRWNkNc/H3uKgq/6opgtKC, ?, ?, 2567, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:16:14, 2022-09-06 17:16:14, 2022-09-06 17:16:14))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:16:25</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$UMDZTIGhFh/0ye5wCJPyl.Mh.SPxYCLE300s88d6AnyJzCkQGVA3., ?, ?, 5680, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:16:25, 2022-09-06 17:16:25, 2022-09-06 17:16:25))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:16:29</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$nBBJI.eoiNUAgSMLGupdDuavReS11tTikpOlR4igrsbe/ERGpuv2y, ?, ?, 6150, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:16:29, 2022-09-06 17:16:29, 2022-09-06 17:16:29))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:17:04</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$0ozK8RIgvhKTIbgyGZhewe9cHKaR/baOmg8F4u02.faU7CYDCFW0i, ?, ?, 2979, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:17:04, 2022-09-06 17:17:04, 2022-09-06 17:17:04))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:17:06</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$t53jRcyH7eFAUL1N3vRO9.migWYQkr5BPpbw8pA2/e.X/BjAX0t8m, ?, ?, 7148, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:17:06, 2022-09-06 17:17:06, 2022-09-06 17:17:06))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:17:20</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$glurXO0HXztTy3ZWtVMsEudaPZKnhe3YybzA.s3PsfDuMl6Cnh.Rm, ?, ?, 4455, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:17:20, 2022-09-06 17:17:20, 2022-09-06 17:17:20))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:17:55</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$EPQh9f5G0r5t.jUdyOZl3e0qGK6ShUDYp665OtKAs9NKxXRnGDI96, ?, ?, 7391, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:17:55, 2022-09-06 17:17:55, 2022-09-06 17:17:55))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:18:03</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$OymJWXvoqCB7nlovo/VZR.6sME951LWk1dhgdUDG8uD6ffx7mRJ/i, ?, ?, 9347, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:18:03, 2022-09-06 17:18:03, 2022-09-06 17:18:03))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:18:11</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$g4j.ewKJToSMbY0iFtGDZ.dyJkwbWOH0lIPZvuPGr/K5Qih6hVxXu, ?, ?, 1903, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:18:11, 2022-09-06 17:18:11, 2022-09-06 17:18:11))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:18:18</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$tLvx94KOk10EhQGjDFUkHuhKd4Tlfu4AwQhixGF6hqvv3WiR.3lZq, ?, ?, 3734, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:18:18, 2022-09-06 17:18:18, 2022-09-06 17:18:18))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:18:27</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0s"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$uKy5LltZzF2yHxnvr.Fxxu.CRn3GUyLpP/96p1LPUEYSYsPFlmYHK, ?, ?, 2019, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:18:27, 2022-09-06 17:18:27, 2022-09-06 17:18:27))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:18:31</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$EIOFYf4Np3ijat9Juyy5jupqKc7AnJ6GfmNilpNH7Q5fEUijSjoD6, ?, ?, 3982, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:18:31, 2022-09-06 17:18:31, 2022-09-06 17:18:31))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:20:08</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>shipper_type : "0"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, younes@gmail.com, ?, $2y$10$86HRBWErGhUQReKMz4Gkf.KbfT6q1FrnkuYfUPIEpUav0KYTgFaaG, Alger, ?, 6076, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:20:08, 2022-09-06 17:20:08, 2022-09-06 17:20:08))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:21:06</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>register_as : "0"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:21:14</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>register_as : "0"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:23:04</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "0"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:23:08</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>last_name : "younes"<br>password : "********"<br>register_as : "0"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:24:16</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 712 <br>ERROR :: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shipper_type' cannot be null (SQL: insert into `users` (`first_name`, `last_name`, `email`, `user_type`, `password`, `city`, `mobile_no`, `verification_code`, `equipment_use`, `company_name`, `operated_equipment_type`, `truck_count`, `shipment_per_month`, `shipping_city`, `headquarters_city`, `language`, `ref_id`, `carrier_number`, `doc`, `owner_id_doc`, `shipper_type`, `country_code`, `is_verify`, `status`, `approve`, `email_verified_at`, `updated_at`, `created_at`) values (younes, younes, ?, ?, $2y$10$IFm1yJ8/EZpgP51NhcSj2.E0ikVTHXAKGThRhw4pidUKzkhzm/Yee, Alger, ?, 6134, 0, ?, 0, 0, 0, 0, 0, 0, 0, ?, ?, ?, ?, ?, 0, 0, 0, 2022-09-06 17:24:16, 2022-09-06 17:24:16, 2022-09-06 17:24:16))</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:24:21</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:26:19</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:26:39</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:26:53</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:27:26</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:28:18</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:28:33</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:28:41</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:28:48</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:28:57</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:29:06</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:29:22</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:29:36</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:29:43</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:29:50</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:30:01</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 597 <br>ERROR :: Array to string conversion</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:30:20</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:30:28</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:30:35</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:31:07</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:32:32</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:32:34</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 244 <br>ERROR :: Secret is not set.</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:34:18</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:35:35</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:36:15</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 701 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:36:35</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:37:02</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:37:19</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 703 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:37:38</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:37:56</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:38:11</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:38:26</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:38:40</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:39:06</td>
+        <td>http://localhost:8000/api/register</td>
+        <td>first_name : "younes"<br>last_name : "younes"<br>email : "younes@gmail.com"<br>user_type : "1"<br>password : "********"<br>register_as : "1"<br>city : "16"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 702 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:40:27</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 975 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:40:40</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 975 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:41:06</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 975 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:47:35</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 976 <br>ERROR LINE NO :: 890 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:48:23</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 977 <br>ERROR LINE NO :: 891 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:48:39</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 977 <br>ERROR LINE NO :: 891 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:49:11</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 977 <br>ERROR LINE NO :: 891 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:49:29</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 978 <br>ERROR LINE NO :: 892 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:49:50</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 978 <br>ERROR LINE NO :: 892 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:49:57</td>
+        <td>http://localhost:8000/api/login</td>
+        <td>email : "younes@gmail.com"<br>password : "*********"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 978 <br>ERROR LINE NO :: 892 <br>ERROR :: Undefined variable $token</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:51:14</td>
+        <td>http://localhost:8000/api/get_profile</td>
+        <td>email : "younes@gmail.com"<br>password : "123456789"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 1067 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
+<tr>
+        <td>2022-09-06 17:51:53</td>
+        <td>http://localhost:8000/api/get_profile</td>
+        <td>email : "younes@gmail.com"<br>password : "123456789"<br></td>
+        <td>FILE NAME :: C:\Users\Admin\Desktop\truck company\html-master\html-master\app\Http\Controllers\api\ApiUserController.php <br>ERROR THROW LINE NO :: 1067 <br>ERROR LINE NO :: 1068 <br>ERROR :: Undefined array key "SERVER_ADDR"</td>
+        <td>127.0.0.1</td>
+        </tr>
