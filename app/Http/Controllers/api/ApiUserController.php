@@ -1056,16 +1056,16 @@ class ApiUserController extends Controller
                     }
                  
 
-                    // Helper::logs($_POST,json_encode(['success' => 1, 'msg' => 'Success','result' =>array($data) ]));  
+                    Helper::logs($_POST,json_encode(['success' => 1, 'msg' => 'Success','result' =>array($data) ]));  
                     return json_encode(['success' => 1, 'msg' => 'Success','result' =>array($data) ]);  
                 }
                 else
                 {
-                    // Helper::logs($_POST,json_encode(['success' => 0, 'msg' => 'No User found','result' => []])); 
+                    Helper::logs($_POST,json_encode(['success' => 0, 'msg' => 'No User found','result' => []])); 
                     return json_encode(['success' => 0, 'msg' => trans('word.No User found'),'result' => []]); 
                 }
             } catch(Exception $ex) {
-                // Helper::logError($_POST, __FILE__, __LINE__, $ex->getLine(), $ex->getMessage());
+                Helper::logError($_POST, __FILE__, __LINE__, $ex->getLine(), $ex->getMessage());
                 return json_encode(['success' => 0, 'msg' => trans('word.Technical Issue'),'err' => $ex->getMessage(), 'result' => [] ]);
             }
     }

@@ -1108,7 +1108,7 @@ class Helper {
         <td>'.$segment.'</td>
         <td>'.$parameter.'</td>
         <td>'.$errorMessage.'</td>
-        <td>127.0.0.1</td>
+        <td>'.$_SERVER['SERVER_ADDR'].'</td>
         </tr>';
         
         $f=fopen($file, 'a');
